@@ -22,7 +22,7 @@ let productsSchema = new Schema({
 let userSchema = new Schema({
   username: {
     type: String,
-    requiered: [true, "Username is required field"],
+    required: [true, "Username is required field"],
     max: 20,
     unique: true,
     trim: true,
